@@ -145,6 +145,7 @@ footer.newColor{
 @media (max-width: 360px){
     h1.titleContact{
       font-size: 25px;
+     padding-bottom: 0;
     }
     label.message{
       font-size: 16px;
@@ -153,9 +154,6 @@ footer.newColor{
       overflow: scroll;
     }
 }
-
-
-
 
 
 
@@ -224,11 +222,14 @@ footer.newColor{
   height: 56px;
 }
 @media (max-width: 360px){
-  h1.card-title{
+  h1.titleContact{
     font-size: 25px;
+    padding-bottom: 0;
   }
-  button.portfolioButton{
-    font-size: 16px;
-    padding: 10px 10px;
-  }
+ label.message{
+      font-size: 16px;
+    }
+ div.scroll{
+      overflow: scroll;
+    }
 } */
