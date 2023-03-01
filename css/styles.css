@@ -27,7 +27,7 @@ div.card{
   border-radius: 0;
 }
 
-a.nav-link{
+a.nav-link.text-white.navbar-text{
   text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
@@ -80,14 +80,17 @@ a:hover {
   color: #7791c9;
 }
 
-label.message{
+label.message.text-color{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   color: #ffffff;
 }
 
-.message-label {
+label.message.text-color.message-label {
   padding: 0 0 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 textarea.resize{
