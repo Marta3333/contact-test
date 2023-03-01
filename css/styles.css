@@ -4,12 +4,7 @@ html, body{
 body.myBody{
   background-color: #2f3236;
 }
-div.myRow{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 div.card-header{
   padding: 0;
   background-color: #000000;
@@ -21,6 +16,8 @@ div.card-body{
   align-items: center;
   justify-content: center;
   padding: 0;
+  background-color: #2f3236;
+  text-align: center;
 }
 
 div.card{
@@ -28,11 +25,6 @@ div.card{
   padding: 0;
   border: 0;
   border-radius: 0;
-}
-
-div.card-body{
-  background-color: #2f3236;
-  text-align: center;
 }
 
 a.nav-link{
@@ -103,159 +95,8 @@ label.message{
   padding: 0 0 10px;
 }
 
-button.contactSendButton{
-  color: #2bd3d6;
-  background-color: #000000;
-  border-color: #000000;
-  font-family: 'Source Sans Pro', sans-serif;
-
-}
-
-.send_button {
-  margin-top: 10px;
-  border: 0;
-  padding: 0 10px;
-  color: #2f3236;
-  font-weight: bold;
-  font-size: 25px;
-  background-color: #D3D3D3;
-  border: 1px solid #D3D3D3;
-  border-radius: 5px;
-}
-
-button.contactSendButton:hover{
-  color: #ffffff;
-  background-color: #000000;
-  border-color: #000000;
-}
-
-footer.card-footer{
-  height: 56px;
-}
-
-footer.newColor{
-  background-color: #000000;
-}
-
-@media (max-width: 360px){
-  h1.titleContact{
-    font-size: 25px;
-    padding-bottom: 0;
-  }
-  label.message{
-    font-size: 16px;
-  }
-}
-
-
-
-
-
-/* html, body{
- height: 100vh;
-}
-
-body.myBody{
-  background-color: #2f3236;
-} */
-
-/* div.myRow{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* div.card-header{
-  padding: 0;
-}
-
-div.card-body{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-div.card{
-  background-color: #2f3236;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-}
-
-div.card-body{
-  background-color: #2f3236;
-}
-
-a.nav-link{
-  text-align: left;
-}
-
-button.navbar-toggler.btn.btn-light{
-  background-color: #D3D3D3;
-}
-
-.navbar-toggler-icon{
-  background-color: #D3D3D3;
-  border-radius: 5px;
-}
-
-ul{
-  display: flex;
-}
-
-.newColor{
-  background-color: #000000;
-}
-
-div.contactPadding{
-  padding: 10px;
-}
-
-form.formContact{
-  margin-bottom: 10px;
-}
-
-h1.titleContact{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  color: #2bd3d6;
-  text-align: center;
-  margin-bottom: 16px;
-  padding-bottom: 50px;
-  font-weight: bold;
-}
-
-p.copyrightOther{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-}
-
-a {
-  color: #3b5998;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-a:hover {
-  color: #7791c9;
-}
-
-label.message{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
-  color: #ffffff;
-}
-
-.message-label {
-  padding: 0 0 10px;
+textarea.resize{
+  resize: both;
 }
 
 button.contactSendButton{
@@ -292,18 +133,6 @@ footer.newColor{
   background-color: #000000;
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
-  h1.titleContact{
-    font-size: 25px;
-    padding-bottom: 0;
-  }
-  label.message{
-    font-size: 16px;
-  }
-  div.scroll{
-    overflow: scroll;
-  }
-}
 @media (max-width: 360px){
   h1.titleContact{
     font-size: 25px;
@@ -312,83 +141,4 @@ footer.newColor{
   label.message{
     font-size: 16px;
   }
-}  */
-
-
-
-
-
-
-
-/* html, body{
-  height: 100vh;
 }
-a{
-  font-family: 'Source Sans Pro', sans-serif;
-}
-nav{
-  text-align: left;
-}
-body.myBody{
-  background-color: #2f3236;
-}
-button.navbar-toggler.btn.btn-light{
-  background-color: #D3D3D3;
-}
-.navbar-toggler-icon{
-  background-color: #D3D3D3;
-  border-radius: 5px;
-}
-.newColor{
-  background-color: #000000;
-}
-h1.card-title{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  color: #2bd3d6;
-  text-align: center;
-  margin-bottom: 16px;
-  padding-bottom: 50px;
-}
-p.copyrightOther{
-  margin: 0;
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-}
-div.myRow{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-button.portfolioButton{
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  background-color: #000000;
-  border: 1px solid #000000;
-  border-radius: 5px;
-  color: #2bd3d6;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-button.m-b{
-  margin-bottom: 0;
-}
-button.portfolioButton:hover{
-  color: #ffffff;
-}
-footer.newColor{
-  background-color: #000000;
-  height: 56px;
-}
-@media (max-width: 360px){
-  h1.card-title{
-    font-size: 25px;
-  }
-  button.portfolioButton{
-    font-size: 16px;
-    padding: 10px 10px;
-  }
-} */
