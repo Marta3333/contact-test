@@ -47,10 +47,6 @@ ul{
   display: flex;
 }
 
-div.contactPadding{
-  padding: 10px;
-}
-
 form.formContact{
   margin: 10px 0 10px;
 }
