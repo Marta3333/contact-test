@@ -29,6 +29,9 @@ div.card{
 
 a.nav-link{
   text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 button.navbar-toggler.btn.btn-light{
@@ -42,10 +45,6 @@ button.navbar-toggler.btn.btn-light{
 
 ul{
   display: flex;
-}
-
-.newColor{
-  background-color: #000000;
 }
 
 div.contactPadding{
@@ -70,7 +69,7 @@ p.copyrightOther{
   padding: 0;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -131,14 +130,4 @@ footer.card-footer{
 
 footer.newColor{
   background-color: #000000;
-}
-
-@media (max-width: 360px){
-  h1.titleContact{
-    font-size: 25px;
-    padding-bottom: 0;
-  }
-  label.message{
-    font-size: 16px;
-  }
 }
